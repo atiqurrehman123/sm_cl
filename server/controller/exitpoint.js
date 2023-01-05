@@ -52,7 +52,7 @@ const exitPoint= async (req, res) => {
           }
         );
         // Return the total cost to the frontend
-        res.status(201).send({ totalCost });
+        res.status(201).send({ totalCost,exitPoint,exitTime });
       } else {
         res.status(403).send("Number Plate does not exist in our records");
       }
