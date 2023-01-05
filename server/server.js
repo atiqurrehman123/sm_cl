@@ -15,7 +15,7 @@ connectDB()
 app.use(cors());
 app.use(express.json());
 app.get("/", (req, res) => {
-  res.send("Smash Cloud server running");
+  res.send("Sm CL server running");
 });
 
 //routes
